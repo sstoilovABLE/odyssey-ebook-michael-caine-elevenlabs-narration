@@ -1,0 +1,26 @@
+{
+  "_README": "FINAL, audio-verified substitution map (2026-06-28). These are the ONLY names the ElevenLabs / Michael Caine narration changes from Bryant; most originally-assumed swaps were dropped because the narration keeps Bryant's Latinate forms. Consumed by substitute.py and applied to src/epub/text/book-*.xhtml. Entries are applied IN ORDER, longest / compound / possessive form first, so 'Pallas Athene' resolves before bare 'Pallas' and 'Jove's' before 'Jove'.",
+  "_apostrophe": "Source uses U+2019 (the curly right single quote). Possessives keep Bryant's exact apostrophe and swap only the name stem: Ulysses' -> Odysseus' (bare, because Bryant wrote it bare), Jove's -> Zeus's, Neptune's -> Poseidon's, Saturn's -> Cronos's, Juno's -> Hera's.",
+  "_kept_in_narration": ["Minerva", "Venus", "Vulcan", "Diana", "Ceres", "Latona", "Mars", "Pluto", "Proserpine", "Bacchus", "Phoebus", "Apollo", "Aurora"],
+  "_residuals_not_swapped": [
+    "Saturnian (8x): adjective form. Saturn -> Cronos IS swapped, but the verified list does not include 'Saturnian' (Greek would be 'Cronian'), so it is left as Bryant has it.",
+    "Dian / Dian's (6x): poetic contraction of Diana. Diana is KEPT in the narration, so Dian is kept too (consistent)."
+  ],
+  "substitutions": [
+    { "from": "Pallas Athenè", "to": "Athena" },
+    { "from": "Pallas Athene", "to": "Athena" },
+    { "from": "Pallas", "to": "Athena" },
+    { "from": "Ulysses’", "to": "Odysseus’" },
+    { "from": "Ulysses", "to": "Odysseus" },
+    { "from": "Jove’s", "to": "Zeus’s" },
+    { "from": "Jove", "to": "Zeus" },
+    { "from": "Jupiter", "to": "Zeus" },
+    { "from": "Neptune’s", "to": "Poseidon’s" },
+    { "from": "Neptune", "to": "Poseidon" },
+    { "from": "Saturn’s", "to": "Cronos’s" },
+    { "from": "Saturn", "to": "Cronos" },
+    { "from": "Juno’s", "to": "Hera’s" },
+    { "from": "Juno", "to": "Hera" },
+    { "from": "Mercury", "to": "Hermes" }
+  ]
+}
