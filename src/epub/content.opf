@@ -44,7 +44,7 @@
 		<dc:description id="description">An epic poem following a Greek hero trying to return home after the Trojan war.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;The &lt;i&gt;Odyssey&lt;/i&gt; is one of the oldest works of Western literature, dating back to classical antiquity. &lt;a href="https://standardebooks.org/ebooks/homer"&gt;Homer’s&lt;/a&gt; epic poem belongs in a collection called the Epic Cycle, which includes the &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/homer/the-iliad/william-cullen-bryant"&gt;Iliad&lt;/a&gt;&lt;/i&gt;. It was originally written in ancient Greek, utilizing a dactylic hexameter rhyme scheme. Although this rhyme scheme sounds beautiful in its native language, in modern English it can sound awkward and, as Eric McMillan humorously describes it, resembles “pumpkins rolling on a barn floor.” William Cullen Bryant avoided this problem by composing his translation in blank verse, a rhyme scheme that sounds natural in English.&lt;/p&gt;
-			&lt;p&gt;This epic poem follows Ulysses, one of the Greek leaders that brought an end to the ten-year-long Trojan war. Longing for home, he travels across the Mediterranean Sea to return to his kingdom in Ithaca; unfortunately, our hero manages to anger Neptune, the god of the sea, making his trip home agonizingly slow and extremely dangerous. While Ulysses is trying to return home, his family in Ithaca is also in danger. Suitors have traveled to the home of Ulysses to marry his wife, Penelope, believing that her husband did not survive the war. These men are willing to kill anyone who stands in their way.&lt;/p&gt;
+			&lt;p&gt;This epic poem follows Odysseus, one of the Greek leaders that brought an end to the ten-year-long Trojan war. Longing for home, he travels across the Mediterranean Sea to return to his kingdom in Ithaca; unfortunately, our hero manages to anger Poseidon, the god of the sea, making his trip home agonizingly slow and extremely dangerous. While Odysseus is trying to return home, his family in Ithaca is also in danger. Suitors have traveled to the home of Odysseus to marry his wife, Penelope, believing that her husband did not survive the war. These men are willing to kill anyone who stands in their way.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://archive.org/details/odysseyofhomer1899home1</dc:source>
@@ -117,6 +117,7 @@
 		<item href="text/book-23.xhtml" id="book-23.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/book-24.xhtml" id="book-24.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/halftitlepage.xhtml" id="halftitlepage.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/preface.xhtml" id="preface.xhtml" media-type="application/xhtml+xml"/>
@@ -153,6 +154,7 @@
 		<itemref idref="book-22.xhtml"/>
 		<itemref idref="book-23.xhtml"/>
 		<itemref idref="book-24.xhtml"/>
+		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
