@@ -62,3 +62,5 @@ Bryant wrote in blank verse (iambic pentameter). Roman and Greek names are often
 - Preserve capitalisation (e.g. "Ulysses" → "Odysseus", "ULYSSES" → "ODYSSEUS")
 - Handle possessives (e.g. "Ulysses'" → "Odysseus'")
 - Do NOT substitute inside XML attributes, only inside text nodes
+- Regularly update README.md and CLAUDE.md to keep them up-to-date
+- After every run, update TASKS.md to reflect tasks completed and to potentially add new tasks that may need to be done

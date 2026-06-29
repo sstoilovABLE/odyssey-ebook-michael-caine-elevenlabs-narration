@@ -12,7 +12,9 @@
 - [ ] Write Editor's Note for the front and move WCB Preface to the end 
 - [x] Create Chapter 0 from the Michael Caine narration 
 - [ ] Create new book cover
+- [ ] Remove Standard Ebooks branding and graphics; keep them only in relevant places to make clear the SE book is the basis for this one, but that this is *not* a Standard Ebooks edition
 - [ ] Update colophon., imprint. and uncopyright.xhtml files 
+- [ ] Rename all Book X references to Chapter X references to match the convention on the ElevenLabs audiobook
 - [ ] Run se lint; fix all lint warnings and errors
 - [ ] Build EPUB
 - [ ] Test on Google Play Books and Calibre ebook reader
