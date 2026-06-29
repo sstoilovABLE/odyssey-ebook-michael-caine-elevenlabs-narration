@@ -32,6 +32,12 @@ Bryant uses both *Pallas* and *Minerva* for Athena; the narration says **Athena*
 
 The mapping lives in [`scripts/substitutions.json`](scripts/substitutions.json) and is applied by [`scripts/substitute.py`](scripts/substitute.py); [`scripts/extract_names.py`](scripts/extract_names.py) re-scans the books to confirm no Bryant forms remain.
 
+## Book 0: the audiobook's introduction
+
+The Michael Caine narration opens with a short framing introduction — an **Eleven Productions original** that is *not* part of Bryant's translation — setting up who Odysseus is and where the story finds him before Book I begins. This edition includes it as **Book 0: Introduction**, transcribed from the audiobook so the text matches what you hear.
+
+Unlike the rest of the poem (Bryant's blank verse), Book 0 is set as **prose**, since that is how the narration delivers it. It is the only added content in this edition; everything from Book I onward is Bryant's translation with the name changes above.
+
 ## How to use it
 
 Download the .epub from Releases and read it in any EPUB reader. You can read it while listening to the Michael Caine audiobook on the [ElevenReader app](https://elevenreader.io).

@@ -10,7 +10,7 @@
 - [x] Create/update CLAUDE.md
 - [x] Reorganize project directory to be cleaner
 - [ ] Write Editor's Note for the front and move WCB Preface to the end 
-- [ ] Create Chapter 0 from the Michael Caine narration 
+- [x] Create Chapter 0 from the Michael Caine narration 
 - [ ] Create new book cover
 - [ ] Update colophon., imprint. and uncopyright.xhtml files 
 - [ ] Run se lint; fix all lint warnings and errors
