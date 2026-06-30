@@ -39,7 +39,7 @@ The final, audio-verified swap list is documented in `README.md`. The mapping it
 All substitution work is **complete**:
 - All 24 book XHTML files have been updated (commit 5026a71).
 - `toc.xhtml` entries mirror each book's `<p epub:type="title">` (Athena/Odysseus).
-- `se:long-description` blurb in `content.opf` reads Odysseus/Poseidon. Upstream identifiers, dates, and source/VCS URLs in `content.opf` are intentionally left as-is.
+- `se:long-description` blurb in `content.opf` reads Odysseus/Poseidon (a third paragraph describing this edition was added later — see *Front/back matter restructure* below). Note: `dc:publisher`, `dc:source`, `se:url.vcs.github`, and `a11y:certifiedBy` were **subsequently repointed to this fork** in the restructure below; only the upstream `dc:identifier` and dates are still left as-is.
 - `epub-src/src/epub/text/endnotes.xhtml` was added explaining every name change and every name deliberately kept as Bryant wrote it.
 
 Do not re-run substitutions — the books are already in their final Greek-names state.
@@ -49,10 +49,19 @@ Do not re-run substitutions — the books are already in their final Greek-names
 - Registered in `content.opf` (manifest + spine, immediately before `book-1.xhtml`) and `toc.xhtml` (first entry under "The Odyssey"); the `bodymatter` landmark now points to `book-0.xhtml`.
 - It is new content that already uses the Greek names (Odysseus), not a Bryant passage, so it is **exempt from the substitution scripts** — `extract_names.py` may surface its forms, but do not run `substitute.py` against it.
 
-These files still contain Bryant forms **on purpose** — do not "fix" them:
+### Front/back matter restructure (2026-06-30)
+The front/back matter was reorganized so the book reads as a fork, not a Standard Ebooks edition:
+- **Editor's note added** — `text/note.xhtml` ("About This Edition", `epub:type="preface"`, `frontmatter`), signed "Stoil M. Stoilov, July, 2026." Explains the Greek-name restoration, the metre caveat, and the preface relocation. Spine slot: after `imprint.xhtml`, before `halftitlepage.xhtml`; TOC front-matter entry "About This Edition".
+- **Bryant's preface relocated to the back** — `text/preface.xhtml` is unchanged in body text but is now `epub:type="afterword"` / `backmatter`, heading retitled "W. C. Bryant's Preface to His Translation (1871)". Spine: moved to after `book-24.xhtml`, before `endnotes.xhtml`; TOC back-matter entry before Endnotes.
+- **Colophon rewritten + de-branded** — `text/colophon.xhtml`: SE publisher `logo.svg` removed (its manifest item lost `properties="svg"`); records the factual Standard Ebooks → public-domain page-scan lineage (**no Project Gutenberg** — SE's own page lists only Internet Archive / HathiTrust / Google Books scans), the modifications, the editor + year 2026, and the CC0 dedication.
+- **`content.opf` metadata** — added editor contributor `Stoil Miroslavov Stoilov` (role `edt`); `dc:publisher` and `a11y:certifiedBy` changed from "Standard Ebooks" to the editor; `se:url.vcs.github` and the publisher homepage repointed to the fork (`github.com/sstoilovABLE/…`); SE edition URL added to `dc:source`; `dc:description` + `se:long-description` rewritten for this edition. `dc:identifier` and dates left upstream (see TASKS.md).
+- Still TODO (see TASKS.md): de-brand the **cover**, **title page**, and **imprint** (these still carry SE branding/`logo.svg`); regenerate plumbing with `se`; lint; build.
+
+These files contain Bryant/Roman forms **on purpose** — never run `substitute.py` against them:
+- `note.xhtml` — the editor's note quotes the Roman names ("Ulysses, Neptune, Minerva, Jove") to explain the change. New content; exempt from the substitution scripts.
 - `preface.xhtml` — Bryant's 1871 preface arguing *for* keeping the Latin names; swapping would make it self-contradictory.
 - `endnotes.xhtml` — quotes the Bryant forms to explain each change.
-- `colophon.xhtml` — "Ulysses and the Sirens" is the actual title of the Waterhouse painting.
+- `colophon.xhtml` — names the Roman forms when describing the change, and keeps "Ulysses and the Sirens," the actual title of the Waterhouse painting.
 
 ## Critical Caveat — Metre
 Bryant wrote in blank verse (iambic pentameter). Roman and Greek names are often NOT syllable-equivalent. Substitutions WILL break metre in many lines. This is accepted and intentional for this edition — the goal is name consistency with the audio, not metrical perfection. Do NOT attempt to repair metre.

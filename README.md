@@ -36,7 +36,11 @@ The mapping lives in [`scripts/substitutions.json`](scripts/substitutions.json) 
 
 The Michael Caine narration opens with a short framing introduction — an **Eleven Productions original** that is *not* part of Bryant's translation — setting up who Odysseus is and where the story finds him before Book I begins. This edition includes it as **Book 0: Introduction**, transcribed from the audiobook so the text matches what you hear.
 
-Unlike the rest of the poem (Bryant's blank verse), Book 0 is set as **prose**, since that is how the narration delivers it. It is the only added content in this edition; everything from Book I onward is Bryant's translation with the name changes above.
+Unlike the rest of the poem (Bryant's blank verse), Book 0 is set as **prose**, since that is how the narration delivers it. Aside from the front-matter editor's note described below, it is the only content added to the story; everything from Book I onward is Bryant's translation with the name changes above.
+
+## Editor's note and Bryant's preface
+
+This edition opens with a short **editor's note** ("About This Edition") explaining the name change and the trade-off it makes with Bryant's metre. Bryant's own **1871 preface** — in which he argued *for* the Roman names, on the strength of English poetic tradition — has been moved to the **back of the book**, where it is preserved in full as a document of its time. **Endnotes** at the back record every name that was changed and every Latinate name deliberately kept.
 
 ## How to use it
 

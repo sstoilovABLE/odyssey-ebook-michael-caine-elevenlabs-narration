@@ -9,31 +9,27 @@
 - [x] Substitute Roman names with Greek ones, insofar as needed to match the Michael Caine narration
 - [x] Create/update CLAUDE.md
 - [x] Reorganize project directory to be cleaner
-- [x] Create Chapter 0 from the Michael Caine narration 
-- [ ] Write an endnote for the bridgehead section at the beginning of Book 1 - explain that the bridgeheads are not read out by Michael Caine in the audiobook, but they are present in the WCB translation and are therefore kept in this edition for context and authenticity
-- [ ] Write an endnote for Book 0 - explain that it is not present in the original Odyssey text, but has been added to match 100% the ElevenLabs narration
-- [ ] Create new book cover
-- [ ] Remove Standard Ebooks branding and graphics; keep them only in relevant places to make clear the SE book is the basis for this one, but that this is *not* a Standard Ebooks edition
-- [ ] Update colophon., imprint. and uncopyright.xhtml files 
-- [ ] Write Editor's Note for the front and move WCB Preface to the end. Add an endnote to the preface putting it in context, especially regarding WCB's argumentation for using Roman names - something that we have reversed with our edition
+- [x] Create Chapter 0 from the Michael Caine narration
+- [x] Write Editor's Note for the front and move WCB Preface to the end
+    - [x] Rewrite colophon.xhtml (de-brand, factual lineage, record modifications, name editor)
+    - [x] Update content.opf metadata (editor contributor, de-brand publisher/VCS, source, descriptions)
+- [ ] Write an endnote for the bridgehead section at the beginning of each book - explain it is not read out by Michael Caine but is kept for context and authenticity
+- [ ] Write an endnote for Book 0 - explain it is not in the original Odyssey but added to match the ElevenLabs narration
+- [ ] Create new book cover; remove Standard Ebooks branding/wordmark from it
+- [ ] De-brand the title page (titlepage.svg) and add an editor credit
+- [ ] De-brand the imprint (imprint.xhtml): remove the SE logo, or drop the imprint page entirely
+- [ ] Remove images/logo.svg from the manifest and delete it once nothing references it
+- [ ] Revisit colophon cover-art/typeface credits after the cover/title-page redesign
+- [ ] Decide whether to mint a new dc:identifier and update dc:date for this fork edition
+- [ ] Review the "Standard Ebooks makes no representations" line in uncopyright.xhtml
 - [ ] Run se lint; fix all lint warnings and errors
+- [ ] Regenerate manifest/spine/TOC with se tooling and verify landmarks
 - [ ] Build EPUB
 - [ ] Test on Google Play Books and Calibre ebook reader
 - [ ] Compile final v1.0 EPUB and upload it to Releases
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
 
 
 # Actions to be done after every task
 
 - Update README.md and CLAUDE.md accordingly
-- Update TASKS.md to reflect tasks completed and to add new tasks that may need to be done
+- Update TASKS.md to reflect tasks completed and to potentially add new tasks that may need to be done
