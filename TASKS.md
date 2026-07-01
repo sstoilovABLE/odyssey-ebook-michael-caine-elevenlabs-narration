@@ -23,6 +23,7 @@
 - [ ] Revisit colophon cover-art/typeface credits after the cover/title-page redesign
 - [ ] Decide whether to mint a new dc:identifier and update dc:date for this fork edition
 - [ ] Review the "Standard Ebooks makes no representations" line in uncopyright.xhtml
+- [ ] Update word count and other metadata
 - [ ] Run se lint; fix all lint warnings and errors
 - [ ] Regenerate manifest/spine/TOC with se tooling and verify landmarks
 - [ ] Build EPUB

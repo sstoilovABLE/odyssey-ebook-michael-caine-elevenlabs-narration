@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/homer/the-odyssey/william-cullen-bryant</dc:identifier>
 		<dc:date>2020-02-08T01:55:23Z</dc:date>
 		<meta property="dcterms:modified">2020-02-08T01:55:23Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Stoil M. Stoilov</dc:publisher>
 		<meta property="file-as" refines="#publisher">Stoilov, Stoil M.</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://github.com/sstoilovABLE/odyssey-ebook-michael-caine-elevenlabs-narration</meta>
+		<link href="https://github.com/sstoilovABLE/odyssey-ebook-michael-caine-elevenlabs-narration" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Stoil M. Stoilov</meta>
@@ -37,7 +38,7 @@
 		<meta property="term" refines="#subject-2">sh2008103294</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">no2014054320</meta>
-		<meta property="se:subject">Poetry</meta>
+		<meta property="schema:genre">Poetry</meta>
 		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Great Books of the Western World</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
 		<dc:description id="description">An epic poem following a Greek hero trying to return home after the Trojan war. A specially-edited reading companion for the audiobook narrated in the AI voice of Michael Caine.</dc:description>
@@ -51,20 +52,22 @@
 		<dc:source>https://archive.org/details/odysseyofhomer1899home1</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/008673668</dc:source>
 		<dc:source>https://www.google.com/books/edition/The_Odyssey_of_Homer/edgpAAAAYAAJ</dc:source>
-		<meta property="se:word-count">119502</meta>
-		<meta property="se:reading-ease.flesch">71.07</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Odyssey</meta>
-		<meta property="se:url.vcs.github">https://github.com/sstoilovABLE/odyssey-ebook-michael-caine-elevenlabs-narration</meta>
+		<meta property="schema:wordCount">119502</meta>
+		<meta property="schema:educationalLevel">71.07</meta>
+		<link href="https://en.wikipedia.org/wiki/Odyssey" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/sstoilovABLE/odyssey-ebook-michael-caine-elevenlabs-narration" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Homer</dc:creator>
 		<meta property="file-as" refines="#author">Homer</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Homer</meta>
+		<link href="https://en.wikipedia.org/wiki/Homer" refines="#author" rel="schema:sameAs"/>
 		<meta property="alternate-script" refines="#author">Ὅμηρος</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n78095639</meta>
+		<link href="https://id.loc.gov/authorities/names/n78095639.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">William Cullen Bryant</dc:contributor>
 		<meta property="file-as" refines="#translator">Bryant, William Cullen</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/William_Cullen_Bryant</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n80050495</meta>
+		<link href="https://en.wikipedia.org/wiki/William_Cullen_Bryant" refines="#translator" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n80050495.html" refines="#translator" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="editor">Stoil Miroslavov Stoilov</dc:contributor>
@@ -73,12 +76,12 @@
 		<meta property="role" refines="#editor" scheme="marc:relators">edt</meta>
 		<dc:contributor id="artist">John William Waterhouse</dc:contributor>
 		<meta property="file-as" refines="#artist">Waterhouse, John William</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/John_William_Waterhouse</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79044158</meta>
+		<link href="https://en.wikipedia.org/wiki/John_William_Waterhouse" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79044158.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="producer-1">Emma Sweeney</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Sweeney, Emma</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://www.linkedin.com/in/emma-sweeney-554927190/</meta>
+		<link href="https://www.linkedin.com/in/emma-sweeney-554927190/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -87,7 +90,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
-		<meta property="se:url.homepage" refines="#producer-2">http://www.robinwhittleton.com/</meta>
+		<link href="http://www.robinwhittleton.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
