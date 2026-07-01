@@ -40,7 +40,7 @@ Unlike the rest of the poem (Bryant's blank verse), the Introduction is set as *
 
 ## Editor's note and Bryant's preface
 
-This edition opens with a short **editor's note** ("About This Edition") explaining the name change and the trade-off it makes with Bryant's metre. Bryant's own **1871 preface** — in which he argued *for* the Roman names, on the strength of English poetic tradition — has been moved to the **back of the book**, where it is preserved in full as a document of its time. **Endnotes** at the back record every name that was changed and every Latinate name deliberately kept.
+This edition opens with a short **editor's note** ("About This Edition") explaining the name change and the trade-off it makes with Bryant's metre. Bryant's own **1871 preface** — in which he argued *for* the Roman names, on the strength of English poetic tradition — has been moved to the **back of the book**, where it is preserved in full as a document of its time. **Endnotes** at the back record every name that was changed and every Latinate name deliberately kept, plus one unrelated editorial correction: Bryant's own Book 1 argument mistakenly says Athena appears "in the shape of Mentor," when the text of Book 1 itself has her as Mentes (Mentor is a different character, whom she impersonates only later, in Books 2, 22, and 24).
 
 ## How to use it
 

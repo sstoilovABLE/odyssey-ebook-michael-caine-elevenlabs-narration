@@ -16,6 +16,7 @@
 - [x] Write an endnote for the bridgehead section at the beginning of each book - explain it is not read out by Michael Caine but is kept for context and authenticity (added as note-1 on Book 1's bridgehead only; existing name-notes renumbered 2–20)
 - [x] Renamed "Book 0" to a front-matter "Introduction" (`introduction.xhtml`, placed after the editor's note and before the half-title page; dropped the `se:label`/ordinal and `p` title; updated content.opf, toc.xhtml, colophon, README, CLAUDE.md)
 - [x] Write an endnote for the Introduction - explain it is not in the original Odyssey but added to match the ElevenLabs narration
+- [x] Fix Book 1 bridgehead: Bryant's argument said Athena appeared "in the shape of Mentor," but Book 1's own text has her as Mentes (Mentor is a distinct character, impersonated by Athena only later, in Books 2, 22, and 24) — corrected the argument to "Mentes" and added an explanatory endnote (new note-2; all subsequent notes renumbered up by one, now 1–22). This is an editorial correction of a Bryant slip, unrelated to the Greek/Roman deity-name substitution project — not run through `substitute.py`.
 - [ ] Create new book cover; remove Standard Ebooks branding/wordmark from it
 - [ ] De-brand the title page (titlepage.svg) and add an editor credit
 - [ ] De-brand the imprint (imprint.xhtml): remove the SE logo, or drop the imprint page entirely
