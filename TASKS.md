@@ -33,5 +33,5 @@
 
 # Actions to be done after every task
 
-- Update README.md and CLAUDE.md accordingly
+- Update README.md and CLAUDE.md only after significant tasks that concern the whole project — not after small or narrowly-scoped fixes
 - Update TASKS.md to reflect tasks completed and to potentially add new tasks that may need to be done
