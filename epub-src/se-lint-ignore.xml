@@ -2,9 +2,19 @@
 <se-lint-ignore>
 	<file path="local.css">
 		<ignore code="c-009">
-			<line>4</line>
-			<line>13</line>
-			<reason>Duplicate overrides SE base style.</reason>
+			<line>15</line>
+			<line>24</line>
+			<reason>Duplicate bridgehead selectors intentionally override the SE base style.</reason>
+		</ignore>
+	</file>
+	<file path="cover.svg">
+		<ignore code="s-028">
+			<reason>This edition replaces the Standard Ebooks title wordmark (titlepage.svg) with the new cover art, so there is no titlepage SVG whose title must match the cover SVG.</reason>
+		</ignore>
+	</file>
+	<file path="content.opf">
+		<ignore code="f-002">
+			<reason>De-branded fork: the Standard Ebooks publisher logo (images/logo.svg) has been removed intentionally, and LICENSE.md lives at the repository root rather than inside the SE project directory.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
